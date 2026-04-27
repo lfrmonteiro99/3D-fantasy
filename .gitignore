@@ -1,0 +1,27 @@
+# Godot 4+ specific ignores
+.godot/
+.import/
+
+# Imported translations (auto-generated from CSV)
+*.translation
+
+# Mono-specific (only relevant if using C#)
+.mono/
+data_*/
+mono_crash.*.json
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Build/export output
+builds/
+exports/
+*.exe
+*.pck
+*.zip

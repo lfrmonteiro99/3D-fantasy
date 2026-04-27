@@ -1,0 +1,37 @@
+# Auto-detect text files
+* text=auto
+
+# Force text + LF for code/config
+*.gd       text eol=lf
+*.tscn     text eol=lf
+*.tres     text eol=lf
+*.cs       text eol=lf
+*.csv      text eol=lf
+*.json     text eol=lf
+*.cfg      text eol=lf
+*.md       text eol=lf
+*.sh       text eol=lf
+*.svg      text eol=lf
+project.godot text eol=lf
+
+# Force LFS for binary assets
+# 3D models
+*.glb   filter=lfs diff=lfs merge=lfs -text
+*.gltf  filter=lfs diff=lfs merge=lfs -text
+*.fbx   filter=lfs diff=lfs merge=lfs -text
+*.blend filter=lfs diff=lfs merge=lfs -text
+*.obj   filter=lfs diff=lfs merge=lfs -text
+
+# Textures
+*.png  filter=lfs diff=lfs merge=lfs -text
+*.jpg  filter=lfs diff=lfs merge=lfs -text
+*.jpeg filter=lfs diff=lfs merge=lfs -text
+*.tga  filter=lfs diff=lfs merge=lfs -text
+*.exr  filter=lfs diff=lfs merge=lfs -text
+*.hdr  filter=lfs diff=lfs merge=lfs -text
+*.webp filter=lfs diff=lfs merge=lfs -text
+
+# Audio
+*.ogg filter=lfs diff=lfs merge=lfs -text
+*.wav filter=lfs diff=lfs merge=lfs -text
+*.mp3 filter=lfs diff=lfs merge=lfs -text
